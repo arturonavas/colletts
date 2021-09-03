@@ -90,7 +90,7 @@
 
   .texto{
     display: flex;
-    min-height: 250px;
+    max-height: 250px;
   }
 
 .text1,.text2,.text3{
@@ -112,8 +112,12 @@
     background-color: rgb(34, 60, 99);
   }
 .text-white{
+  align-self: center ;
   background: #ffffff;
-  padding-top: 50px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
 }
 .text4{
   color: rgb(26, 54, 95);
@@ -126,6 +130,8 @@
   border: none;
   padding: auto;
   text-transform: uppercase;
+  margin-right: 55px;
+  margin-left: 55px;
 }
 
 .text5{
@@ -136,10 +142,130 @@
   text-decoration: none;
   border: none;
   padding-bottom: 30px;
+  margin-right: 55px;
+  margin-left: 55px;
 }
 
 .text4,.text5{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #c2c2c2;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: #dfdfdf;
+  font-size: 22px;
+  border-radius: 25px;
+  opacity: 0.8;
+}
+
+.fa-arrow-up{
+  color: black;
+}
+.fa-arrow-up:hover{
+  color: #112f5e;
+}
+
+.last-blue{
+  background-color: rgb(26, 54, 95);
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 1000;
+  text-decoration: none;
+  margin: auto;
+  padding: 80px;
+  font-size: 8px;
+}
+
+footer{
+  width: 100%;
+}
+.container__footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+.box__footer, .box__footer1{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.logo-bottom img{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 80%;
+}
+
+.terms{
+  max-width: 480px;
+  margin-top: 80px;
+  font-weight: 500;
+  color: #112f5e;
+  font-size: 18px;
+  float: left;
+}
+
+
+.box__footer1 h2{
+  font-size: 35px;
+  color: #112f5e;
+  font-weight: 800;
+  padding-right: 30px;
+  text-transform: uppercase;
+  max-width: 300px;
+}
+
+.box__footer1 a{
+  margin-top: 10px;
+  color: #777777;
+  font-weight: 600;
+  padding-left: 15px;
+}
+
+.box__footer1 a:hover{
+  opacity: 0.8;
+  color: #141b1d;
+}
+
+.fab{
+  font-size: 30px;
+}
+
+.box__copyright{
+  text-align: center;
+  background-color: #112f5e;
+  min-height: 150px;
+  padding: 15px;
+}
+
+.box__copyright p{
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.box__copyright hr{
+  border: none;
+  height: 1.5px;
+  background-color: #777777;
+}
+
+.p1,.p2{
+  font-size: 11px;
+  margin: 0px 80px 0px 80px;
 }

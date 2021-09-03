@@ -87,7 +87,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .texto {
+  .texto, .container__footer {
       flex-direction: column;
       margin-left: 0;
       margin-bottom: 32px;
